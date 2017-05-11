@@ -78,8 +78,7 @@ public class gamemain extends JPanel {
 		public void keyReleased(KeyEvent e) {
 			// unused
 			
-		}
-		
+		}		
 	}
 	
 	public static class mouselistener implements MouseListener { // unused, mouse listener
@@ -123,7 +122,7 @@ public class gamemain extends JPanel {
 	
 public static void main(String[] args) { // initialization
 		
-			JFrame gui = new JFrame();
+	    JFrame gui = new JFrame();
             gui.setTitle("Game of Life");
             gui.setSize(1000, 1000);
             gui.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
